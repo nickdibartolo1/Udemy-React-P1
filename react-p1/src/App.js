@@ -1,5 +1,6 @@
 import './index.css';
-import Expenses from './components/Expenses';
+import Expenses from './components/ExpensesF/Expenses';
+import NewExpenses from './components/NewEX/NewExpenses';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 
   return (
     <div>
+      <NewExpenses />
       <Expenses items={expenses}/>
     </div>
   )
